@@ -21,6 +21,7 @@ blockquote {
   font-size: 150%;
   font-weight: 500;
   color: black;
+  max-width: 300px;
 }
 
 blockquote footer:before {
@@ -31,6 +32,8 @@ blockquote footer {
   font-size: 75%;
   font-weight: normal;
   color: #55aaaa;
+  text-indent: 60%;
+  padding-top: 1em;
 }
 
 input {
@@ -43,4 +46,8 @@ input {
 
 input[type=submit] {
   font-size: 18px;
+}
+
+form label {
+  font-size: 150%;
 }
